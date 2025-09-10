@@ -1,0 +1,44 @@
+h1:: before {
+  content:"inicio";
+    color: red;
+}
+
+p.destaque:: after {
+  content:"FIM";
+  color:green;
+}
+
+ul li:: marker {
+  color: orange;
+}
+
+::selection{
+  background-color: gray;
+}
+
+input:: placeholder {
+  color: purple;
+}
+
+p:: before{
+  content: "Nota: ";
+  color: blue;
+}
+
+p.destaque:: first-line{
+  background-color: pink;
+}
+
+h1:: selection{
+  color: white;
+  background-color: black;
+}
+
+p::first-letter{
+  color: red;
+  font-size: 36px;
+}
+
+input:: placeholder{
+  background-color: lightgray;
+}
